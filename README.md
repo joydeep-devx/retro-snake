@@ -37,7 +37,7 @@ retro-snake/
 
 
 ## 🧠 JavaScript Game Flow
-![Retro Snake Logic Flow](./assets/preview-image.png)
+<img src="assets/workflow.png" width="350" />
 
 
 ## 🛠️ Technologies Used
