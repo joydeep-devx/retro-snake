@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Snake</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="icon" type="png" href="favicon.png">
+</head>
+<body>
+     <!-- Top UI -->
+    <header>
+        <h1 class="heading">Retro Snake</h1>
+        <div class="score-board">
+            <span>HIGH SCORE: <strong id="high-score">0</strong></span>
+            <span>SCORE: <strong id="score">0</strong></span>
+            <span>TIME : <strong id="time">00:00</strong></span>
+        </div>
+    </header>
+    
+    <!-- Game Area -->
+    <main>
+        <div class="game-wrapper">
+             <div class="board">
+             </div>
+        </div>
+    </main>
+    <!-- Start Overlay-->
+    <div class="overlay start-overlay">
+        <div class="overlay-box start-box">
+            <div class="title">Retro Snake</div>
+            <div class="divider"></div>
+            <div class="hint">PRESS SPACE<br>TO START</div>
+        </div>
+    </div>
+
+    <!-- Game Over Overlay-->
+    <div class="overlay game-over-overlay">
+        <div class="overlay-box game-over-box">
+            <div class="title">Game Over</div>
+            <div class="divider"></div>
+            <div class="score-text">SCORE:<span id="final-score">0</span></div>
+            <div class="hint">PRESS SPACE<br>TO RESTART</div>
+        </div>
+    </div>
+
+   <script src="app.js"></script>
+</body>
+</html>
